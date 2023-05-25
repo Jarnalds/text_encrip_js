@@ -1,0 +1,78 @@
+.encabezado {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    vertical-align: auto;
+}
+
+.encabezado img {
+    width: 100px; /* Ajusta el tamaño de la imagen a 150px */
+    float: inline-start; /* Posiciona la imagen a la izquierda */
+    margin: .5%;
+}
+
+.encabezado h1 {
+    margin-top: 10; /* Elimina el margen superior del encabezado */
+    float: inline-start; /* Posiciona la imagen a la izquierda */
+}
+
+.contenedor {
+  text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background: #bcbcc0;
+  }
+
+  .contenedor img {
+    background: white;
+  }
+  
+  .item {
+    width: 25%;
+    min-width: 150px;
+    height: 350px;
+    min-height: 250px;
+    max-width: 25%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black; /* Solo para visualización */
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+  }
+  
+.button {
+  background-color: #493f72; /* Green */
+  inline-size: 150px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #3f11bd;
+}
+
+.button:hover {
+  background-color: #4d07f1; /* Green */
+  color: white;
+}
+
+.control{
+  margin: 10px;
+  padding: 10px;
+  background: #bcbcc0;
+  text-align: center;
+}
+
+footer p {
+  font-size:small; 
+}
